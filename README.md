@@ -39,7 +39,7 @@ Dev Environment   |  Kali Linux (VM)
 ## Project Structure
 
 project-root/
-├── public/            (Static frontend: HTML, CSS, images)
+|-- public/            (Static frontend: HTML, CSS, images)
 ├── server.js          (Express server and API routes)
 ├── Dockerfile         (App container build instructions)
 ├── docker-compose.yml (Multi-container orchestration: app + MongoDB)
@@ -106,5 +106,5 @@ docker push <ecr-repo-uri>:latest
 
 Fawad Arif — DevOps Engineer
 LinkedIn: www.linkedin.com/in/fawad-ar1f
-GitHub: https://github.com/  FawadArif                                                                                                                                                               
+GitHub: https://github.com/FawadArif                                                                                                                                                               
 
