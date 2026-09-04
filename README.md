@@ -25,7 +25,7 @@ All services run inside a Docker network created by Docker Compose.
 ---
 
 ## Tech Stack
-
+```
     Layer         ~   Technology
 Frontend          | HTML, CSS
 Backend           |  Node.js, Express
@@ -33,19 +33,19 @@ Database          |  MongoDB, Mongoose
 Containerization  |  Docker, Docker Compose
 Cloud Registry    |  AWS Elastic Container Registry
 Dev Environment   |  Kali Linux (VM)
-
+```
 ---
 
 ## Project Structure
-
+```
 project-root/
 |-- public/            (Static frontend: HTML, CSS, images)
-├── server.js          (Express server and API routes)
-├── Dockerfile         (App container build instructions)
-├── docker-compose.yml (Multi-container orchestration: app + MongoDB)
-├── package.json
-└── README.md
-
+|-- server.js          (Express server and API routes)
+|-- Dockerfile         (App container build instructions)
+|-- docker-compose.yml (Multi-container orchestration: app + MongoDB)
+|--package.json
+|___ README.md
+```
 ---
 
 ## Running Locally
