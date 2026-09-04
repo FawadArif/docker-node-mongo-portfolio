@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+    /* Default styles */
+/* ... */
+
+/* Media query for screens 768px and wider */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+/* Media query for screens 1024px and wider */
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* Footer styles */
+footer {
+  position: absolute;
+  bottom: 40;
+  width: 100%;
+  height: 80px; /* Height of the footer */
+}
+
+		/* make Adeebi move */
+.animate__animated {
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.animate__pulse {
+  animation-name: pulse;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(10);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* fawadArif programming */
+
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.bounce {
+  animation-name: bounce;
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+	</style>
+	<title>Fawad Arif | Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+        <div class="brand">
+            <h1 class="animate__animated animate__pulse">🅰🅳🅴🅴🅱🅸</h1>
+        </div>
+		<div class="container">
+			<div class="header-left">
+				<img src="fawad.jpg" alt="Fawad Arif">
+			</div>
+			<div class="header-right ">
+				<h1 class="animated infinite bounce delay-2s">ϝαɯαԃ Aɾιϝ</h1>
+				<h2 class="animated infinite pulse delay-4s">DevOps Engineer</h2>
+				<nav>
+					<ul>
+						<li ><a href="about.html" target="_parent">About</a></li>
+						<li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+						<li><a href="cont.html" target="_blank">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section id="intro" class="container , swing , bounce ">
+			<h1>Welcome to my portfolio!</h1>
+			<p>Here you can find my latest projects, skills, and contact information.</p>
+		</section>
+	</main>
+	
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Fawad Arif. All rights reserved.</p>
+		</div>
+	</footer>
+
+</body>
+</html>

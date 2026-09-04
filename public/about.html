@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fawad Arif | Portfolio</title>
+    <style>
+ ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 650px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+  transform: scale(1.1);
+}
+
+.image:hover img {
+  transform: scale(1);
+}
+
+
+
+.text p :hover {
+  margin: 0;
+  font-size: large;
+  width: calc(100% - 260px);
+  transform: scale(2);
+}
+.pop-up-text {
+  background-color: #1b1b1b;
+  border-radius: 5px;
+  padding: 10px;
+  width: 70%;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.pop-up-text:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* make Adeebi move */
+.animate__animated {
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.animate__pulse {
+  animation-name: pulse;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(3);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+
+    </style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+        <div class="brand">
+            <h1 class="animate__animated animate__pulse">🅰🅳🅴🅴🅱🅸</h1>
+
+        </div>
+		<div class="container">
+			<div class="header-left">
+				<img src="fawad.jpg" alt="Fawad Arif">
+			</div>
+			<div class="header-right">
+				<h1>ϝαɯαԃ Aɾιϝ</h1>
+				<h2>𝗦𝗧𝗨𝗗𝗘𝗡𝗧</h2>
+				<nav>
+					<ul>
+						<li ><a href="about.html" target="_blank">About</a></li>
+						<li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+						<li><a href="cont.html" target="_blank">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section id="intro" class="container">
+			<h1>Welcome to my portfolio!</h1>
+			<p>Here you can find my latest projects, skills, and contact information.</p>
+		</section>
+	</main>
+	<div class="container">
+		<div class="paragraph">
+		  <div class="text">
+			<p class="pop-up-text"><strong>Greeting's </strong>Hi, I'm Fawad Arif. I'm a student at Mirpur University of Science & Technology (MUST). i born and brought up in Mirpur JAmmu & Kashmir. i like reading And i obsessed with Iqbal, dostoevsky and Juan's litterature. I love to learn with different styles and techniques. So,it makes me faster in learning and understanding things. Adeebi.... </p>
+		  </div>
+		  <div class="image">
+			<img src="img.HEIC" alt="Random photo">
+		  </div>
+		</div>
+		<div class="paragraph">
+		  <div class="image">
+			<img src="book.jpg" alt="Random photo">
+		  </div>
+		  <div class="text">
+			<p class="pop-up-text"><strong>Now-a-days </strong>In my free time, I like to read and learn new things. Recently, I started studying Human phsycology. Because it is what we deal with daily. A lot of famous writer's  Here is quote from my present favourite book. 
+				<br> <q style="font-size: larger;">As a general rule,people even wicked are much more naive than we supposed.And we ourselves are, too.</q><br> Now-a-days, i am reading a book " The Brothers Karamazov " <cite> by Fyodor dostoevsky</cite> </p>
+		  </div>
+		</div>
+		<div class="paragraph">
+		  <div class="text">
+			<p class="pop-up-text"> I like to play outdoor <strong>Sports</strong> like Cricket and Hockey etc. i represented Ajk as a Hockey Player.<strong>Now-a-days,</strong> i Prefer to play Indoor sports Like Chess,Snooker and diffrent electronic Sports.</p>
+		  </div>
+		  <div class="image">
+			<img src="chess.webp" alt="Random photo">
+		  </div>
+		</div>
+    <div class="paragraph">
+		  <div class="image">
+			<img src="Flag_of_Azad_Kashmir.svg.png" alt="Random photo">
+		  </div>
+		  <div class="text">
+			<p class="pop-up-text"><strong>Message </strong>
+				<br> You should know that the history of Kashmir is no more known to most of Kashmiri's. Now-a-day,most kashmiri don't know about thier background. <strong>this is a alarm call</strong> to read and convey our history to our future generations. </p>
+		  </div>
+	  </div>
+	  
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Fawad Arif. All rights reserved.</p>
+		</div>
+	</footer>
+
+</body>
+</html>
